@@ -1,5 +1,3 @@
-import { submitUserForm } from "../actions/actions";
-
 const personalFields = [
   { name: "firstname", placeholder: "First name", type: "text" },
   { name: "lastname", placeholder: "Last name", type: "text" },
@@ -20,10 +18,7 @@ const cardFields = [
 export default function Page() {
   return (
     <main className="flex justify-center items-center min-h-screen bg-gray-100 p-6">
-      <form
-        action={submitUserForm}
-        className="bg-white shadow-lg rounded-2xl p-6 w-full max-w-lg space-y-6"
-      >
+      <form className="bg-white shadow-lg rounded-2xl p-6 w-full max-w-lg space-y-6">
         <h1 className="text-2xl font-bold">User Information</h1>
 
         {/* PERSONAL INFO */}
