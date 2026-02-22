@@ -1,0 +1,14 @@
+# robots.txt for Azeez Oloto [BigWeb]
+
+User-agent: *
+Allow: /
+
+# Disallow crawling of Next.js API routes
+Disallow: /api/
+
+# Disallow temporary or dev pages (adjust based on your routes)
+Disallow: /draft/
+Disallow: /preview/
+
+# Sitemap location (if you have one)
+Sitemap: https://yourdomain.com/sitemap.xml
